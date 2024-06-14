@@ -11,14 +11,17 @@ El aprendizaje no supervisado es una técnica de machine learning utilizada para
 * Jerárquico: Construye una jerarquía de clusters. Puede ser aglomerativo (comienza con puntos individuales y los agrupa) o divisivo (comienza con todos los puntos en un solo cluster y los divide).
 
 * DBSCAN: Agrupa puntos que están densamente conectados, permitiendo descubrir clusters de formas arbitrarias y manejar ruido.
-* 
-Reducción de Dimensionalidad:
 
-PCA (Principal Component Analysis): Transforma los datos en un nuevo conjunto de variables no correlacionadas llamadas componentes principales, ordenadas por la cantidad de varianza explicada.
-t-SNE (t-Distributed Stochastic Neighbor Embedding): Técnica para la reducción de dimensionalidad que es particularmente buena para visualizar datos en 2D o 3D.
-Modelos de Mezcla (Mixture Models):
+### 2.Reducción de Dimensionalidad:
 
-Gaussian Mixture Models (GMM): Asume que los datos son una mezcla de varias distribuciones gaussianas y utiliza la estimación de máxima verosimilitud para encontrar los parámetros de las distribuciones.
+* PCA (Principal Component Analysis): Transforma los datos en un nuevo conjunto de variables no correlacionadas llamadas componentes principales, ordenadas por la cantidad de varianza explicada.
+
+* t-SNE (t-Distributed Stochastic Neighbor Embedding): Técnica para la reducción de dimensionalidad que es particularmente buena para visualizar datos en 2D o 3D.
+
+### 3.Modelos de Mezcla (Mixture Models):
+
+* Gaussian Mixture Models (GMM): Asume que los datos son una mezcla de varias distribuciones gaussianas y utiliza la estimación de máxima verosimilitud para encontrar los parámetros de las distribuciones.
+
 Asociación de Reglas:
 
 Apriori: Encuentra reglas de asociación en bases de datos grandes. Es útil para el análisis de cesta de la compra.
